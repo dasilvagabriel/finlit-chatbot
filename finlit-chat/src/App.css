@@ -1,0 +1,123 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+ul {
+  padding: 15px;
+  margin: 0px;
+}
+
+.main {
+  background-color: #4B518C;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.main--subtitles {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+.chat-window {
+  display: flex;
+  border-radius: 1px;
+  width: 80%;
+}
+
+#outputArea {
+  background-color: lightblue;
+  color:black;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#promptInput {
+  border-radius: 8px 0px 0px 8px;
+  border: 0px;
+  padding: 8px;
+  padding-top: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+textarea {
+  width: 600px;
+  overflow: hidden;
+}
+
+#prompt-submit-button {
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
+  border: 0px;
+  padding: 8px;
+  padding-top: 15px;
+  background-color: white;
+}
+
+#outputArea {
+  display: flex;
+  width: 75%;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.message {
+  max-width: 80%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.user-message {
+  background-color: #e5e5ea;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background-color: white;
+  color: black;
+  align-self: flex-start;
+}
+
+.api-field{
+  margin-bottom: 20px;
+  font-family: 'Inter';
+}
+
+#api-button{
+  padding: 6px 8px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-size: 12px;
+  border: 0;
+}
+
+#api-button:hover{
+  background-color: #9EB2D4;
+  cursor: pointer;
+}
+
+#apiKeyInput{
+  border-radius: 10px;
+  padding: 6px 8px;
+  border: 0;
+  margin:0 10px;
+}
