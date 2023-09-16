@@ -7,8 +7,8 @@ import GitHubButton from './components/GitHubButton.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
-    <App />
-    <GitHubButton />
+      <App />
+      <GitHubButton />
     </>
   </React.StrictMode>,
 )
